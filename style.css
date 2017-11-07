@@ -1,0 +1,19 @@
+body{
+  background-color: #CA1F00;
+}
+.titres{
+  color: white;
+  text-align: center;
+}
+table{
+  margin:auto;
+  width: 900px;
+}
+
+img{
+  margin-left: 20px;
+  width: 200px;
+}
+#texte{
+  width: 500px;
+}
