@@ -10,7 +10,9 @@ table{
   margin:auto;
   width: 900px;
 }
-
+p{
+  font-size: 20px;
+}
 img{
   margin-left: 20px;
   width: 200px;
