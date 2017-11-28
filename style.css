@@ -1,22 +1,75 @@
 body{
-  background-color: #CA1F00;
+  background-image: url("https://www.ffe.com/var/ezwebin_site/storage/images/accueil/haut-niveau-disciplines-fei/cedric-lyard-et-cadeau-du-roi-jo-jem-5e-du-cci-4-burghley/455048-1-fre-FR/Cedric-Lyard-et-Cadeau-du-Roi-JO-JEM-5e-du-CCI-4-Burghley.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .titres{
   font-family: Arial;
-  color: white;
   text-align: center;
 }
-table{
-  margin:auto;
-  width: 900px;
+h1{
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: white;
 }
-p{
+h2{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  color: white;
+}
+#tout_table{
+  margin:auto;
+  width: 1200px;
+}
+#partie_g{
+  border: solid;
+  border-color: white;
+  border-radius: 30px;
+  border-width: 7px;
+  background-color: #D4FDFF;
+  width: 650px;
+}
+#image{
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 300px;
+}
+#pres{
+  margin-left: 20px;
   font-size: 20px;
 }
-img{
-  margin-left: 20px;
-  width: 200px;
+#mail{
+  border-radius: 5px;
+  width: 450px;
+  padding: 5px;
+  margin-left: 30px;
+  text-align: center;
 }
-#texte{
-  width: 500px;
+#nom{
+  margin-left: 30px;
+}
+.identite{
+  border-radius: 5px;
+  width: 215px;
+  padding: 5px;
+  margin-bottom:10px;
+  text-align: center;
+}
+#bouton{
+  padding: 5px;
+  margin-left: 230px ;
+  margin-top:10px;
+}
+h3{
+  color: red;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+#attire{
+  color: red;
+  font-size: 15px;
+  width: 450px;
+  margin-left: 30px;
+  margin-bottom: 40px;
 }

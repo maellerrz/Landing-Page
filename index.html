@@ -8,15 +8,28 @@
   <body>
     <h1 class="titres"> UN AIRBAG PORTATIF</h1>
     <h2 class="titres"> spécialement créé pour les cavalier</h2>
-    <table>
-      <tr id="table">
-        <td id="texte">
-          <p>Le nouvel AirBag de la marque Helite, permet de vous protéger de façon considérable.
-           Vous allez me dire que les gilets de protection existent déjà, oui, mais l'airbag Hélite assure un protection contre des chocs encore plus violents !
-           En effet, l'air amortit 3 fois plus le choc que de simples mousses renforcées qu'on a l'habitude de voir.</p>
-         </td>
-        <td id="image"><img src="airbag1.png" /></td>
-      </tr>
+    <table id="tout_table">
+      <td>
+        <table id="partie_g">
+          <td>
+            <p id="pres">Le nouvel AirBag de la marque Helite, permet de vous protéger de façon considérable.
+                 Vous allez me dire que les gilets de protection existent déjà, oui, mais l'airbag Hélite assure un protection contre des chocs encore plus violents !
+                 En effet, l'air amortit 3 fois plus le choc que de simples mousses renforcées qu'on a l'habitude de voir.</p>
+          </td>
+          <td><img id="image" src="airbag1.png" /></td>
+        </table>
+      </td>
+      <td id="partie_d">
+        <h3 class="titres">Laissez nous vos coordonnées !</h3>
+        <p id="attire" class="titres">si vous souhaitez plus d'information sur le produit
+          et tentez de gagner un bon de réduction de 50% ;)</p>
+        <form id="formulaire" method="post" action="index.php" enctype="multipart/form-data">
+          <input class="identite" id="nom" type="text" placeholder="Nom" />
+          <input class="identite" type="text" placeholder="Prénom"/>
+          <input id="mail" type="text" placeholder="e-mail" />
+          <input id="bouton" type="submit" value="Valider" />
+        </form>
+      </td>
     </table>
   </body>
 </html>
