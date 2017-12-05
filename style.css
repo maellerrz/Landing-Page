@@ -37,10 +37,6 @@ h4{
   align-items: center;
   flex-wrap: wrap;
 }
-/* #tout_table{
-margin:auto;
-width: 1200px;
-} */
 #pres{
   display: flex;
   justify-content: space-around;
@@ -52,22 +48,10 @@ width: 1200px;
   background-color: #D4FDFF;
   width: 650px;
 }
-/* #partie_g{
-border: solid;
-border-color: white;
-border-radius: 30px;
-border-width: 7px;
-background-color: #D4FDFF;
-width: 650px;
-} */
 #explication{
   margin-left: 20px;
   font-size: 20px;
 }
-/* #pres{
-margin-left: 20px;
-font-size: 20px;
-} */
 #image{
   margin-right: 20px;
   margin-left: 20px;
