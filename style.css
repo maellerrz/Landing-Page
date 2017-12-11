@@ -31,9 +31,9 @@ h4{
 /* partie pres produit/ formulaire */
 #parent1{
   display: flex;
-  width: 1200px;
+  width: 80%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -46,21 +46,21 @@ h4{
   border-radius: 30px;
   border-width: 7px;
   background-color: #D4FDFF;
-  width: 650px;
+  width: 40%;
 }
 #explication{
   margin-left: 20px;
   font-size: 20px;
 }
 #image{
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 10px;
   height: 300px;
 }
 #inscrption{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 h3{
   color: red;
@@ -74,7 +74,6 @@ h3{
   font-size: 19px;
   width: 450px;
   text-align: center;
-  margin-left: 30px;
   margin-bottom: 40px;
   text-shadow: 1px 1px 5px black;
 }
@@ -97,8 +96,9 @@ h3{
   text-align: center;
   font-size: 15px;
 }
-#nom{
-  margin-left: 30px;
+.nom{
+  display: flex;
+  width: 35%;
 }
 #bouton{
   padding: 10px;
@@ -118,7 +118,7 @@ h3{
   flex-wrap: wrap;
 }
 #saut1{
-  width: 350px;
+  width: auto;
   height: 230px;
 }
 #convaincre{
@@ -127,7 +127,7 @@ h3{
   font-size: 20px;
 }
 #saut2{
-  width: 350px;
+  width: auto;
   height: 230px;
   order: 1;
 }
@@ -140,8 +140,8 @@ h3{
 /* partie 3 images avec soustitres */
 #parent3{
   display: flex;
-  height: 300px;
-  width: 1300px;
+  height: 320px;
+  width: 80%;
   margin: auto;
   margin-top: 30px;
   justify-content: space-between;
@@ -149,13 +149,9 @@ h3{
   flex-wrap: wrap;
   flex-direction: column;
 }
-#couleurs{
-  width: 330px;
-  height: 230px;
-}
-#gonfle{
-  width: 180px;
-  height: 230px;
+.troisimgs{
+  width: auto;
+  height: 250px;
 }
 .soustitres{
   color: white;
@@ -166,15 +162,29 @@ h3{
 /* partie galerie photo */
 #toutes_img{
   display: flex;
-  width: 90%;
+  width: 85%;
   margin: auto;
   margin-top: 30px;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-content: center;
 }
 .imgs{
   width: auto;
   height: 200px;
-  margin-bottom: 10px;
+  margin: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  #parent3{
+    height: auto;
+    }
+  #parent1{
+    flex-direction: column;
+    align-content: space-around;
+  }
+  #pres{
+    width: 100%;
+  }
+
 }
