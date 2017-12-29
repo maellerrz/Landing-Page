@@ -25,7 +25,7 @@ h2{
 /* partie pres produit/ formulaire */
 #parent1{
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +42,18 @@ h2{
   background-color: #D4FDFF;
   width: 40%;
 }
+#div{ /* partie de droite*/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid;
+  border-color: white;
+  border-radius: 30px;
+  border-width: 7px;
+  background-color: #D4FDFF; */
+  width: 55%;
+}
 #explication{
   margin-left: 20px;
 }
@@ -49,13 +61,13 @@ h2{
   margin: 10px;
   width: 35%;
 }
-#inscrption{  /* partie de droite */
+/* #inscrption{
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
+  flex-direction: column;
+  justify-content: space-around;
   width: 55%;
   flex-wrap: wrap;
-}
+} */
 h3{
   width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
   color: red;
@@ -65,17 +77,18 @@ h3{
   text-shadow: 1px 1px 5px black;
 }
 #attire{
+  /* display: inline-block;
   width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
-  text-align: center;
   color: red;
-  font-size: 110%;
-  margin-bottom: 5%;
+  /* font-size: 110%; */
+  text-align: center;
+  /* margin-bottom: 5%; */
   text-shadow: 1px 1px 5px black;
 }
 #formulaire{
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around; */
   width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
 }
 .cases{
@@ -84,19 +97,20 @@ h3{
   border-radius: 5px;
   font-size: 110%;
   text-align: center;
-  padding: 5px;
+  padding: 1%;
 }
 .identite{
   width: 47%;
   margin-bottom:10px;
 }
 #mail{
-  width: 100%;
+  width: 97%;
 }
 #bouton{
+  /* width: 10%; */
   padding: 10px;
   margin-top: 10px;
-
+  margin-left: 45%;
 }
 #bouton:hover{
   background-color: #FFF780;
@@ -163,6 +177,7 @@ h4{
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
+  margin-top: 8%;
 }
 .imgs{
   width: auto;
