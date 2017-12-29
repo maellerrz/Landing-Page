@@ -1,25 +1,26 @@
 body{
-  background-image: url("https://www.ffe.com/var/ezwebin_site/storage/images/accueil/haut-niveau-disciplines-fei/cedric-lyard-et-cadeau-du-roi-jo-jem-5e-du-cci-4-burghley/455048-1-fre-FR/Cedric-Lyard-et-Cadeau-du-Roi-JO-JEM-5e-du-CCI-4-Burghley.jpg");
+  background-image: url("http://horseandriderbooks.files.wordpress.com/2011/10/michael-pollard.jpg");
   background-size: cover;
   background-position: center;
 }
 .police{
   font-family: Arial;
 }
+.ombre{
+  text-shadow: 1px 1px 5px black;
+}
 h1{
   font-size: 300%;
-  margin-bottom: 10px;
-  color: white;
+  margin-bottom: 5px;
+  color: #050A8E;
   text-align: center;
-  text-shadow: 1px 1px 10px black;
 }
 h2{
   font-size: 150%;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 60px;
-  color: white;
+  color: #050A8E;
   text-align: center;
-  text-shadow: 1px 1px 10px black;
 }
 
 /* partie pres produit/ formulaire */
@@ -36,22 +37,17 @@ h2{
   justify-content: space-around;
   align-items: center;
   border: solid;
-  border-color: white;
+  border-color: #F3F3FF;
   border-radius: 30px;
   border-width: 7px;
   background-color: #D4FDFF;
   width: 40%;
 }
-#div{ /* partie de droite*/
+#inscription{ /* partie de droite*/
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  /* border: solid;
-  border-color: white;
-  border-radius: 30px;
-  border-width: 7px;
-  background-color: #D4FDFF; */
   width: 55%;
 }
 #explication{
@@ -61,34 +57,25 @@ h2{
   margin: 10px;
   width: 35%;
 }
-/* #inscrption{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 55%;
-  flex-wrap: wrap;
-} */
+
 h3{
   width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
-  color: red;
+  color: #DE0000;
   font-size: 150%;
+  font-weight: bold;
+  text-decoration: underline;
   margin-bottom: 10px;
   text-align: center;
-  text-shadow: 1px 1px 5px black;
 }
 #attire{
-  /* display: inline-block;
-  width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
-  color: red;
-  /* font-size: 110%; */
+  color: #DE0000;
   text-align: center;
-  /* margin-bottom: 5%; */
-  text-shadow: 1px 1px 5px black;
+  font-weight: bolder;
 }
 #formulaire{
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
-  justify-content: space-around; */
+  justify-content: space-around;
   width: 100%; /* 100% de la flexbox parent dans laquelle on se trouve */
 }
 .cases{
@@ -107,15 +94,11 @@ h3{
   width: 97%;
 }
 #bouton{
-  /* width: 10%; */
   padding: 10px;
   margin-top: 10px;
-  margin-left: 45%;
 }
 #bouton:hover{
   background-color: #FFF780;
-  width: 120px;
-  padding: 15px;
 }
 
 /* partie avec 2 photos et convaincre */
@@ -134,16 +117,31 @@ h3{
 .convaincre{
   width: 60%;
   color: white;
+  background-color: rgba(142, 175, 242, 0.5);
+  border: solid;
+  border-width: 10px;
+  border-color: rgba(142, 175, 242, 0.1);
 }
 #saut2{
   width: 35%;
   order: 1;
 }
 
+/* __________Sautez sur l'occasion !_________*/
+#separation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 h4{
   text-align: center;
   font-size: 230%;
-  color: red;
+  color: white;
+}
+#ligne{
+  width: 30%;
+  height: 3px;
+  background-color: white;
 }
 
 /* partie 3 images avec soustitres */
@@ -165,7 +163,8 @@ h4{
 }
 .soustitres{
   color: white;
-  font-style: bold;
+  font-weight: bold;
+  font-size: 110%;
 }
 
 /* partie galerie photo */
@@ -173,15 +172,24 @@ h4{
   display: flex;
   width: 85%;
   margin: auto;
-  /* margin-top: 30px; */
   justify-content: center;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: stretch;
   margin-top: 8%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: solid;
+  border-width: 2px;
+  border-color: #050A8E;
+  padding: 1%;
+}
+#galerie{
+  font-size: 110%;
+  width: 100%;
+  font-weight: bold;
 }
 .imgs{
   width: auto;
-  height: 200px;
+  height: 170px;
   margin: 6px;
   transition: 2s;
 }
