@@ -93,12 +93,29 @@ h3{
 #mail{
   width: 97%;
 }
+#validation{
+  display: flex;
+  justify-content: center;
+}
 #bouton{
   padding: 10px;
   margin-top: 10px;
 }
 #bouton:hover{
   background-color: #FFF780;
+  cursor: pointer;
+}
+#emoji{
+  opacity: 0;
+  width: auto;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+#bouton:hover + #emoji{
+  opacity: 100;
+  transform: rotate(360deg);
+  transition: 2s;
 }
 
 /* partie avec 2 photos et convaincre */
@@ -175,7 +192,7 @@ h4{
   justify-content: center;
   flex-wrap: wrap;
   align-content: stretch;
-  margin-top: 8%;
+  margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.8);
   border: solid;
   border-width: 2px;
@@ -186,6 +203,7 @@ h4{
   font-size: 110%;
   width: 100%;
   font-weight: bold;
+  margin-top: 10px;
 }
 .imgs{
   width: auto;
@@ -194,19 +212,26 @@ h4{
   transition: 2s;
 }
 .imgs:hover{
+  cursor: pointer;
   transform: scale(2);
 }
 
 /* changements par rapport à la taille de l'écran */
 @media screen and (max-width: 1024px){
-  #pres{
+  #pres, #inscription{
     width: 100%;
   }
-  #image{
-    width: 30%;
+  #emoji{
+    display: none;
   }
-  #parent3{
-    height: auto;
+  h3{
+    font-size: 170%;
+  }
+  #attire, .convaincre, .soustitres{
+    font-size: 120%;
+  }
+  #parent2{
+    flex-direction: column;
   }
   #saut1{
     width: 90%;
@@ -219,13 +244,27 @@ h4{
     text-align: center;
     width: 90%;
   }
-}
+  #explication{
+    font-size: 130%;
+  }
+  #image{
+    width: 25%;
+  }
 @media screen and (max-width: 768px) {
+  #explication{
+    font-size: 120%;
+  }
+  #image{
+    width: 30%;
+  }
   #parent3{
     flex-direction: column;
   }
   #colonne1, #colonne2, #colonne3{
     margin-bottom: 30px;
+  }
+  .soustitres{
+    font-size: 140%;
   }
   .imgs{
     height: 120px;
