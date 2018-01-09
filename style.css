@@ -3,19 +3,6 @@ body{
   background-size: cover;
   background-position: center;
 }
-#int{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 100px;
-}
-#carte, #video{
-  height: 310px;
-}
-#paiement{
-  text-align: center;
-  margin-top: 30px;
-}
 .police{
   font-family: Arial;
 }
@@ -155,6 +142,27 @@ h3{
 #saut2{
   width: 35%;
   order: 1;
+}
+
+#int{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h5, h6{
+  width: 45%;
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+#carte, #video{
+  height: 360px;
+}
+#paiement{
+  text-align: center;
+  margin-top: 30px;
 }
 
 /* __________Sautez sur l'occasion !_________*/

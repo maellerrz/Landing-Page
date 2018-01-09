@@ -7,24 +7,6 @@
     <title>AirBag</title>
   </head>
   <body>
-
-    <div id="int">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TYRy5bCsWF8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11123.657904806953!2d2.329350968169061!3d48.861381061052356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMus%C3%A9e+du+Louvre!5e0!3m2!1sfr!2sfr!4v1515489038977" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <form id="paiement" action="/your-server-side-code" method="POST">
-      <script
-        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-        data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
-        data-amount="999"
-        data-name="Stripe.com"
-        data-description="Widget"
-        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-        data-locale="auto"
-        data-zip-code="true">
-      </script>
-    </form>
-    
     <h1 class="police"> UN AIRBAG PORTATIF</h1>
     <h2 class="police"> spécialement créé pour les cavaliers</h2>
 
@@ -60,6 +42,25 @@
       <p class="police convaincre ombre">Comment ça marche ? Il vous suffit d'accrocher votre protection à votre selle grâce au cable prévu à cet effet.
         En cas de chute, le fait de tirer sur le cable déclenche le gonflement de l'airbag; vous serez donc protégé avant même d'avoir atteind le sol !</p>
     </article>
+
+    <div id="int">
+      <h5 class="police ombre">L'airbag a déjà fait ses preuves</h5>
+      <h6 class="police ombre">Le magasin à Paris</h6>
+      <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/EiGZSIwGX_Q" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52899.106221035516!2d2.2432121925060504!3d48.87483725085315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ff244cc93e9%3A0x58cef2b4b98bd05e!2s10+Rue+le+Sueur%2C+75116+Paris!5e0!3m2!1sfr!2sfr!4v1515493371467" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <form id="paiement" action="/your-server-side-code" method="POST">
+      <script
+      src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+      data-amount="999"
+      data-name="Stripe.com"
+      data-description="Widget"
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+      data-locale="auto"
+      data-zip-code="true">
+      </script>
+    </form>
 
     <article id="separation">
       <div id="ligne"></div>
