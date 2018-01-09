@@ -7,6 +7,24 @@
     <title>AirBag</title>
   </head>
   <body>
+
+    <div id="int">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/TYRy5bCsWF8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11123.657904806953!2d2.329350968169061!3d48.861381061052356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2sMus%C3%A9e+du+Louvre!5e0!3m2!1sfr!2sfr!4v1515489038977" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <form id="paiement" action="/your-server-side-code" method="POST">
+      <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+        data-amount="999"
+        data-name="Stripe.com"
+        data-description="Widget"
+        data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+        data-locale="auto"
+        data-zip-code="true">
+      </script>
+    </form>
+    
     <h1 class="police"> UN AIRBAG PORTATIF</h1>
     <h2 class="police"> spécialement créé pour les cavaliers</h2>
 

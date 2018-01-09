@@ -3,6 +3,19 @@ body{
   background-size: cover;
   background-position: center;
 }
+#int{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+#carte, #video{
+  height: 310px;
+}
+#paiement{
+  text-align: center;
+  margin-top: 30px;
+}
 .police{
   font-family: Arial;
 }
